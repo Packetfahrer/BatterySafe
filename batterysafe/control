@@ -1,0 +1,9 @@
+Package: com.thejailpad.batterysafe
+Name: BatterySafe
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: BatterySafe is a tweak that allows you to lower the brightness if you have a lot more battery
+Maintainer: TheJailPad
+Author: TheJailPad
+Section: Tweaks
