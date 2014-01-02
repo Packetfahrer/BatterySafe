@@ -113,21 +113,9 @@
 			<key>defaults</key>
 			<string>com.thejailpad.batterysafepref</string>
 			<key>key</key>
-			<string>enabledlocalisation</string>
+			<string>enabledcellulardata</string>
 			<key>label</key>
-			<string>Localisation</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.thejailpad.batterysafepref</string>
-			<key>key</key>
-			<string>enabled3glte</string>
-			<key>label</key>
-			<string>3G/LTE</string>
+			<string>Cellular data</string>
 		</dict>
 		<dict>
 			<key>cell</key>
