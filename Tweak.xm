@@ -1,7 +1,8 @@
 // BatterySafe By TheJailPad
 #import <UIKit/UIKit.h>
 #import <SpringBoard/SBBrightnessController.h>
-     
+#import <Preferences/PSCellularDataSettingsDetail.h>
+
     NSMutableDictionary *settings = [NSMutableDictionary dictionaryWithContentsOfFile:
     [NSString stringWithFormat:@"%@/Library/Preferences/%@", NSHomeDirectory(), @"com.thejailpad.batterysafepref.plist"]];
 
@@ -55,13 +56,9 @@
 		{
    		  [[objc_getClass("SBWiFiManager") sharedInstance] setWiFiEnabled:NO];
 		}
-		if ([[settings objectForKey:@"enabledlocalisation"] boolValue])
+		if ([[settings objectForKey:@"enabledcellulardata"] boolValue])
 		{
-	   	  // desactiver localisation
-		}
-		if ([[settings objectForKey:@"enabled3glte"] boolValue])
-		{
-	   	  // desactiver 3g/lte
+	   	  [(PSCellularDataSettingsDetail *)[objc_getClass("PSCellularDataSettingsDetail") sharedInstance] setEnabled:NO];
 		}
 	    }
     }
