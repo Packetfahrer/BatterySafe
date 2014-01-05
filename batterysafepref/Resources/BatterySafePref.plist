@@ -79,7 +79,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Other disabling</string>
+			<string>Options</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -117,36 +117,6 @@
 			<key>label</key>
 			<string>Cellular data</string>
 		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>Information</string>
-		</dict>
-                <dict>
-                        <key>cell</key>
-                        <string>PSButtonCell</string>
-                        <key>label</key>
-                        <string>My Facebook</string>
-                        <key>action</key>
-                        <string>facebook:</string>
-                </dict>
-                <dict>
-                        <key>cell</key>
-                        <string>PSButtonCell</string>
-                        <key>label</key>
-                        <string>My Twitter</string>
-                        <key>action</key>
-                        <string>twitter:</string>
-                </dict>
-                <dict>
-                        <key>cell</key>
-                        <string>PSButtonCell</string>
-                        <key>label</key>
-                        <string>About</string>
-                        <key>action</key>
-                        <string>about:</string>
-                </dict>
 	</array>
 	<key>title</key>
 	<string>BatterySafe</string>
